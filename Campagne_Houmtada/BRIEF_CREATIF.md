@@ -330,6 +330,12 @@ Le script :
 Options : `--sans-textes` (version pour ajouter les textes dans CapCut), `--option-livraison` (bandeau livraison + téléphone).
 Si un plan est trop court, sa dernière image est prolongée automatiquement (un avertissement s'affiche).
 
+### Animatique (maquette avant production)
+`python animatique.py animatique_30s.mp4` monte une maquette du spot de 30 s à partir des photos de `references/`
+(zooms lents, cartouche « ANIMATIQUE · Sn », scène 5 marquée « PLAN À TOURNER », guide de tempo à 120 BPM).
+Elle sert à valider le rythme, les textes et les transitions avec la marque **avant** de payer la génération ou le tournage.
+Le plan de tournage détaillé est dans `FICHE_TOURNAGE.md`.
+
 ### Export manuel (CapCut / Resolve)
 1080×1920 · 30 i/s · H.264 · 15–20 Mb/s · AAC 48 kHz · −14 LUFS · 30,0 s.
 Exporter aussi une **version 4:5 (1080×1350)** pour le fil Facebook/Instagram, et une miniature (image de la scène 6).
