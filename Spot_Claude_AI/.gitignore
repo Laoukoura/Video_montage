@@ -1,0 +1,4 @@
+build/
+voix/*.onnx
+voix/*.onnx.json
+!sortie/*.mp4
